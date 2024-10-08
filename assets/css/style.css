@@ -5,18 +5,23 @@
     font-family: 'poppins',sans-serif;
 }
 .hero{
-    background-color: #4a2040;
+    background-color: #015c92;
     
 }
+
 nav{
     padding: 10px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 .logo{
-    width: 80px;
-    height:80px;
+    width: 150px;
+    height:100px;
+}
+nav ul{
+    display: flex;
+    padding: 0;
 }
 nav ul li{
     display: inline-block;
@@ -24,17 +29,44 @@ nav ul li{
     margin: 10px 15px;
 }
 nav ul li a{
-text-decoration: none;
-color: #ec9ded;
-font-weight: 400;
-}
-body{
-    background-color: #ec9ded;
-    color: #4a2040;
+    text-decoration: none;
+    color: #bce6ff ;
+    font-weight: 400;
+    font-size: 20px;
+    }
 
+
+body{
+    background-color:#bce6ff;
+    color:#015c92;
+
+}
+
+
+
+.box{
+    margin-top: 25px;
+    padding: 20px;
+    border: 10px solid #2d82b5;
+    border-radius: 10px;
+    background-color: #88cdf6;
+    text-align: center;
+    
+    
+    
+}
+hr{
+    border: none;
+    height: 2px;
+    background-color: #015c92;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 footer{
-    background-color: #4a2040;
-    color: #ec9ded;
+    background-color:#015c92;
+    color:#bce6ff;
 }
