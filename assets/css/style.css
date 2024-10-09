@@ -34,6 +34,9 @@ nav ul li a{
     font-weight: 400;
     font-size: 20px;
     }
+    nav ul li a:hover {
+        color: orangered;
+    }
 
 
 body{
@@ -51,10 +54,12 @@ body{
     border-radius: 10px;
     background-color: #88cdf6;
     text-align: center;
+   width: 320px;
+   height: 500px;
     
     
-    
-}
+    }
+
 hr{
     border: none;
     height: 2px;
@@ -65,7 +70,21 @@ hr{
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
-
+.box a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #015c92;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20px;
+   
+}
+.box a:hover {
+background-color: #00304d;
+color: white;
+}
 
 footer{
     background-color:#015c92;
